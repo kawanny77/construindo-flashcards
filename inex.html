@@ -1,0 +1,157 @@
+Claro. Abaixo está um esqueleto básico de uma página web em HTML, com estrutura semântica e CSS embutido:
+
+```
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minha Página Web</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            min-height: 70vh;
+            padding: 40px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .botao {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        section {
+            padding: 50px 0;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <nav>
+            <h2>Meu Site</h2>
+
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+
+        <!-- Seção inicial -->
+        <section id="inicio" class="hero">
+            <h1>Bem-vindo ao meu site</h1>
+
+            <p>
+                Este é o esqueleto inicial da minha página web.
+            </p>
+
+            <a href="#sobre" class="botao">
+                Saiba mais
+            </a>
+        </section>
+
+        <!-- Sobre -->
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>
+                Coloque aqui as informações sobre seu projeto.
+            </p>
+        </section>
+
+        <!-- Serviços -->
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <p>
+                Descreva aqui seus serviços ou funcionalidades.
+            </p>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>
+                Coloque aqui suas informações de contato.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 - Meu Site. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+```
+
+ Salve o arquivo como **`index.html`** e abra-o no navegador. Ele já funciona como uma estrutura inicial para você desenvolver a página.
